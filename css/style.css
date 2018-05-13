@@ -164,7 +164,7 @@ ul {
 .site-btn {
 	font-family: "Oswald", sans-serif;
 	font-size: 15px;
-	color: #641fb1;
+	color: #fff;
 	display: inline-block;
 	text-transform: uppercase;
 	background: #0b2658;
@@ -851,7 +851,7 @@ ul {
 }
 
 .footer-section h2 {
-	color: #6a23b5;
+	color: #fff;
 	font-size: 14px;
 	padding: 18px 0;
 }
