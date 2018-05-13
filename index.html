@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Labs - Design Studio</title>
 	<meta charset="UTF-8">
@@ -7,18 +8,18 @@
 	<meta name="keywords" content="lab, onepage, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<link href="img/favicon.ico" rel="shortcut icon" />
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/flaticon.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/flaticon.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/style.css" />
 
 
 	<!--[if lt IE 9]>
@@ -27,6 +28,7 @@
 	<![endif]-->
 
 </head>
+
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
@@ -40,18 +42,31 @@
 	<!-- Header section -->
 	<header class="header-section">
 		<div class="logo">
-			<img src="img/video_editor_icon.png" alt=""><!-- Logo -->
+			<img src="img/video_editor_icon.png" alt="">
+			<!-- Logo -->
 			<b>Welcome to my personal library</b>
 		</div>
 		<!-- Navigation -->
-		<div class="responsive"><i class="fa fa-bars"></i></div>
+		<div class="responsive">
+			<i class="fa fa-bars"></i>
+		</div>
 		<nav>
 			<ul class="menu-list">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="index.html#library">Library</a></li>
-				<li><a href="index.html#services">Services</a></li>
-				<li><a href="index.html#whoami">Who am I</a></li>
-				<li><a href="index.html#contact">Contact</a></li>
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="index.html#library">Library</a>
+				</li>
+				<li>
+					<a href="index.html#services">Services</a>
+				</li>
+				<li>
+					<a href="index.html#whoami">Who am I</a>
+				</li>
+				<li>
+					<a href="index.html#contact">Contact</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
@@ -59,19 +74,37 @@
 
 
 	<!-- Intro Section -->
-	<div class="hero-section">
+	<!--div class="hero-section">
 		<div class="hero-content">
 			<div class="hero-center">
 				<img src="img/big-logo.png" alt="">
 			</div>
 		</div>
-		<!-- slider -->
 		<div id="hero-slider" class="owl-carousel">
 			<div class="item  hero-item" data-bg="img/snow.jpg"></div>
 		</div>
-	</div>
+	</div-->
 	<!-- Intro Section -->
 
+
+
+	<div class="homepage-hero-module">
+		<div class="video-container">
+			<div class="filter"></div>
+			<video autoplay loop class="fillWidth">
+				<source src="./img/Film-set.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+				<source src="./img/Film-set.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+			</video>
+			<div class="poster hidden">
+				<img src="./img/Film-set.jpg" alt="">
+			</div>
+			<div class="hero-content" style="position:relative; top: -600px">
+				<div class="hero-center">
+					<img src="img/big-logo.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- About section -->
 	<div class="about-section">
@@ -113,56 +146,56 @@
 		<!-- card section end-->
 
 		<div id="library" class="services-section spad-top">
-		<div class="container">
-			<div class="section-title">
-				<h2>library</h2>
+			<div class="container">
+				<div class="section-title">
+					<h2>library</h2>
+				</div>
+				<div class="row">
+					<!-- single service -->
+					<div class="col-md-4 col-sm-6">
+						<div class="service intro-video">
+							<div class="service-text">
+								<img src="img/motivational-1.jpg">
+								<a href="https://www.youtube.com/watch?v=NWCyUcMgpdQ" class="video-popup">
+									<i class="fa fa-play"></i>
+								</a>
+								<h2>Motivational video</h2>
+								<p>Do you ever lack motivation from time to time? This video is made for you!</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="service intro-video">
+							<div class="service-text">
+								<img src="img/belgium-2.jpg">
+								<a href="https://www.youtube.com/watch?v=NWCyUcMgpdQ" class="video-popup">
+									<i class="fa fa-play"></i>
+								</a>
+								<h2>Why should you ever visit Belgium?</h2>
+								<p>This almost forgotten country in the middle of Europe holds some amazing forgotten beauty.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="service intro-video">
+							<div class="service-text">
+								<img src="img/belgium-2.jpg">
+								<a href="https://www.youtube.com/watch?v=GAZuPDi6Lcw" class="video-popup">
+									<i class="fa fa-play"></i>
+								</a>
+								<h2>SHAKE THAT BASS</h2>
+								<p>Panda was not happy that you didn't want to go to SHAKE THAT BASS.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="row">
-				<!-- single service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service intro-video">
-						<div class="service-text">
-							<img src="img/motivational-1.jpg">
-							<a href="https://www.youtube.com/watch?v=NWCyUcMgpdQ" class="video-popup">
-								<i class="fa fa-play"></i>
-							</a>
-							<h2>Motivational video</h2>
-							<p>Do you ever lack motivation from time to time? This video is made for you!</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="service intro-video">
-						<div class="service-text">
-							<img src="img/belgium-2.jpg">
-							<a href="https://www.youtube.com/watch?v=NWCyUcMgpdQ" class="video-popup">
-								<i class="fa fa-play"></i>
-							</a>
-							<h2>Why should you ever visit Belgium?</h2>
-							<p>This almost forgotten country in the middle of Europe holds some amazing forgotten beauty.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="service intro-video">
-						<div class="service-text">
-							<img src="img/belgium-2.jpg">
-							<a href="https://www.youtube.com/watch?v=GAZuPDi6Lcw" class="video-popup">
-								<i class="fa fa-play"></i>
-							</a>
-							<h2>SHAKE THAT BASS</h2>
-							<p>Panda was not happy that you didn't want to go to SHAKE THAT BASS.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
 		</div>
 	</div>
-	
-		<!-- Services section -->
-	<div id="services"  class="services-section spad-top">
+	</div>
+
+	<!-- Services section -->
+	<div id="services" class="services-section spad-top">
 		<div class="container">
 			<div class="section-title dark">
 				<h2>Services</h2>
@@ -176,7 +209,8 @@
 						</div>
 						<div class="service-text">
 							<h2>GFX</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -188,7 +222,8 @@
 						</div>
 						<div class="service-text">
 							<h2>Illustration</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -200,7 +235,8 @@
 						</div>
 						<div class="service-text">
 							<h2>Effects</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -212,7 +248,8 @@
 						</div>
 						<div class="service-text">
 							<h2>Intro's</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -224,7 +261,8 @@
 						</div>
 						<div class="service-text">
 							<h2>Video Montage</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -236,7 +274,8 @@
 						</div>
 						<div class="service-text">
 							<h2>2D</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -248,7 +287,8 @@
 						</div>
 						<div class="service-text">
 							<h2>3D</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -260,7 +300,8 @@
 						</div>
 						<div class="service-text">
 							<h2>Animation</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -272,7 +313,8 @@
 						</div>
 						<div class="service-text">
 							<h2>Photo</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id
+								nulla..</p>
 						</div>
 					</div>
 				</div>
@@ -280,7 +322,7 @@
 		</div>
 	</div>
 	<!-- services section end -->
-	
+
 	<!-- Team Section -->
 	<div id="whoami" class="team-section">
 		<div class="container">
@@ -299,7 +341,8 @@
 					<h2>Dries Serruys</h2>
 					<h3>Editor</h3>
 					<p>I am a belgian student,currently studying Communication Management with a passion for editing.</p>
-					<p>Editing has been a hobby of mine since I was 11. But as I have edited a fair share of video's, I want go beyond editing just my own video's.</p> 
+					<p>Editing has been a hobby of mine since I was 11. But as I have edited a fair share of video's, I want go beyond editing
+						just my own video's.</p>
 					<p>I've had the pleasure of meeting some amazing people over the years, and I'm only 22!</p>
 					<p>I would love to meet you too, if you have any questions, comments or bussiness proposal, I would love to hear from you!</p>
 				</div>
@@ -307,7 +350,7 @@
 		</div>
 	</div>
 	<!-- Team Section end-->
-	
+
 
 	<!-- Contact section -->
 	<div id="contact" class="contact-section spad-bottom fix">
@@ -318,9 +361,11 @@
 					<div class="section-title left">
 						<h2>Contact me</h2>
 					</div>
-					<p>Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum. </p>
+					<p>Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum
+						velit a orci facilisis rutrum. </p>
 					<h3 class="mt60">Main Office</h3>
-					<p class="con-item">C/ Libertad, 34 <br> 05200 Arévalo </p>
+					<p class="con-item">C/ Libertad, 34
+						<br> 05200 Arévalo </p>
 					<p class="con-item">dries273@hotmail.com</p>
 				</div>
 				<!-- contact form -->
@@ -349,7 +394,9 @@
 
 	<!-- Footer section -->
 	<footer class="footer-section">
-		<h2>2017 All rights reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></h2>
+		<h2>2017 All rights reserved. Designed by
+			<a href="https://colorlib.com" target="_blank">Colorlib</a>
+		</h2>
 	</footer>
 	<!-- Footer section end -->
 
@@ -364,4 +411,5 @@
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>
